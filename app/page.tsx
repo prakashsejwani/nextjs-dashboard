@@ -44,6 +44,7 @@ export default function Page() {
           />
           <Image
             src="/hero-mobile.png"
+            priority // 👈 Preloads the image for better LCP performance
             width={560}
             height={620}
             className="block md:hidden"
